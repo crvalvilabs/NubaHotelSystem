@@ -1,0 +1,12 @@
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\bin\Debug\net8.0\NubaHotel.Booking.Domain.deps.json
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\bin\Debug\net8.0\NubaHotel.Booking.Domain.dll
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\bin\Debug\net8.0\NubaHotel.Booking.Domain.pdb
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\NubaHotel.Booking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\NubaHotel.Booking.Domain.AssemblyInfoInputs.cache
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\NubaHotel.Booking.Domain.AssemblyInfo.cs
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\NubaHotel.Booking.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\NubaHotel.Booking.Domain.sourcelink.json
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\NubaHotel.Booking.Domain.dll
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\refint\NubaHotel.Booking.Domain.dll
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\NubaHotel.Booking.Domain.pdb
+C:\Dev\.NET\NubaHotel\src\NubaHotel.Booking.Domain\obj\Debug\net8.0\ref\NubaHotel.Booking.Domain.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\NubaHotel.Booking.Api.props" />
+</Project>

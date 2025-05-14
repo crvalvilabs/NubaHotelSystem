@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NubaHotel.Booking.Api</name>
+    </assembly>
+    <members>
+        <member name="T:NubaHotel.Booking.Api.Controllers.CustomerController">
+            <summary>
+            Controller responsible for handling customer-related operations such as creating a new customer.
+            </summary>
+            <remarks>
+            Provides endpoints to manage and retrieve customer information.
+            </remarks>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.CustomerController.GetAllCustomers(NubaHotel.Booking.Application.CQRS.Customer.Query.GetAllCostumers.IGetAllCustomersHandler)">
+            <summary>
+            Retrieves a list of all customers by invoking the corresponding handler.
+            </summary>
+            <param name="handler">The handler responsible for fetching all customers from the data source.</param>
+            <returns>An IActionResult containing the result of the operation. Returns OK with the list of customers on success.
+            </returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.CustomerController.GetCustomerById(System.Int32,NubaHotel.Booking.Application.CQRS.Customer.Query.GetCustomerById.IGetCustomerByIdHandler)">
+            <summary>
+            Retrieves the details of a specific customer using their unique identifier.
+            </summary>
+            <param name="customerId">The unique identifier of the customer to be retrieved.</param>
+            <param name="handler">The handler responsible for processing the query to fetch the customer information.</param>
+            <returns>An IActionResult containing the result of the operation. Returns OK with the customer's details if found.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.CustomerController.CreateCustomer(NubaHotel.Booking.Application.CQRS.Customer.Command.CreateCustomer.ICreateCustomerHandler,NubaHotel.Booking.Application.CQRS.Customer.Command.CreateCustomer.CreateCustomerCommand,FluentValidation.IValidator{NubaHotel.Booking.Application.CQRS.Customer.Command.CreateCustomer.CreateCustomerCommand})">
+            <summary>
+            Handles the creation of a new customer by validating the input data and invoking the corresponding handler.
+            </summary>
+            <param name="handler">The service responsible for processing and handling the creation of a customer.</param>
+            <param name="command">The data required to create the customer, including name and document number.</param>
+            <param name="validator">The service used to validate the provided customer creation data.</param>
+            <returns>An IActionResult indicating the result of the operation. Returns BadRequest if validation fails or OK on success.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.CustomerController.UpdateCustomer(System.Int32,NubaHotel.Booking.Application.CQRS.Customer.Command.UpdateCustomer.UpdateCustomerCommand,NubaHotel.Booking.Application.CQRS.Customer.Command.UpdateCustomer.IUpdateCustomerHandler)">
+            <summary>
+            Updates an existing customer's information by processing the provided data.
+            </summary>
+            <param name="customerId">The unique identifier of the customer to be updated.</param>
+            <param name="command">The data containing the updated customer information, including name and document number.</param>
+            <param name="handler">The service responsible for handling the update process of the customer.</param>
+            <returns>An IActionResult indicating the outcome of the update operation. Returns OK on success.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.CustomerController.DeleteCustomer(System.Int32,NubaHotel.Booking.Application.CQRS.Customer.Command.DeleteCustomer.IDeleteCustomerHandler)">
+            <summary>
+            Deletes an existing customer based on their unique identifier.
+            </summary>
+            <param name="customerId">The unique identifier of the customer to delete.</param>
+            <param name="handler">The service responsible for processing and handling the deletion of the customer.</param>
+            <returns>An IActionResult indicating the result of the operation. Returns BadRequest if the operation fails or OK on success.</returns>
+        </member>
+        <member name="T:NubaHotel.Booking.Api.Controllers.UserController">
+            <summary>
+            Controller responsible for handling user-related operations.
+            </summary>
+            <remarks>
+            Provides endpoints to manage and retrieve user information.
+            </remarks>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.UserController.GetAllUsers(NubaHotel.Booking.Application.CQRS.User.Query.GetAllUsers.IGetAllUsersHandler)">
+            <summary>
+            Retrieves all users from the system.
+            </summary>
+            <param name="handler">The handler responsible for fetching user data.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> containing the result of the operation,
+            including a list of users and operation status information.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.UserController.GetUserById(System.Int32,NubaHotel.Booking.Application.CQRS.User.Query.GetUserById.IGetUserByIdHandler)">
+            <summary>
+            Retrieves the information of a specific user based on their unique identifier.
+            </summary>
+            <param name="userId">The unique identifier of the user to retrieve.</param>
+            <param name="handler">The handler responsible for processing the retrieval of user data.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> containing the retrieved user information or an error status
+            if the user is not found.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.UserController.CreateUser(NubaHotel.Booking.Application.CQRS.User.Command.CreateUser.ICreateUserHandler,NubaHotel.Booking.Application.CQRS.User.Command.CreateUser.CreateUserCommand,FluentValidation.IValidator{NubaHotel.Booking.Application.CQRS.User.Command.CreateUser.CreateUserCommand})">
+            <summary>
+            Creates a new user in the system.
+            </summary>
+            <param name="handler">The handler responsible for processing the user creation logic.</param>
+            <param name="command">The command containing the data required to create a new user.</param>
+            <param name="validator">The validator responsible for validating the command parameters.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> indicating the outcome of the operation.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.UserController.UpdateUser(NubaHotel.Booking.Application.CQRS.User.Command.UpdateUser.IUpdateUserHandler,NubaHotel.Booking.Application.CQRS.User.Command.UpdateUser.UpdateUserCommand,System.Int32)">
+            <summary>
+            Updates the details of an existing user in the system.
+            </summary>
+            <param name="handler">The handler responsible for processing the user update operation.</param>
+            <param name="command">The command containing the updated user information, such as first name, last name, and email.</param>
+            <param name="userId">The unique identifier of the user to be updated.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> indicating the result of the operation.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Controllers.UserController.DeleteUser(System.Int32,NubaHotel.Booking.Application.CQRS.User.Command.DeleteUser.IDeleteUserHandler)">
+            <summary>
+            Deletes a user from the system by their unique identifier.
+            </summary>
+            <param name="userId">The unique identifier of the user to be deleted.</param>
+            <param name="handler">The handler responsible for processing the user deletion operation.</param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.IActionResult"/> indicating the result of the operation,
+            including status information.</returns>
+        </member>
+        <member name="T:NubaHotel.Booking.Api.DependencyInjection">
+            <summary>
+            Dependency Injection configuration for the API project.
+            Contains configuration for Swagger.
+            </summary>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.DependencyInjection.AddApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configures dependencies for the API layer, including Swagger and logging.
+            </summary>
+            <param name="services">The service collection to which dependencies will be added.</param>
+            <param name="configuration">The application configuration instance.</param>
+            <returns>The updated service collection with API dependencies configured.</returns>
+        </member>
+        <member name="T:NubaHotel.Booking.Api.Logging.LoggingService">
+            <summary>
+            The LoggingService class is responsible for handling logging functionality
+            within the application. It allows writing logs to a specified file path.
+            </summary>
+        </member>
+        <member name="F:NubaHotel.Booking.Api.Logging.LoggingService._pathFile">
+            <summary>
+            Represents the file path where log data is written and stored.
+            Configured based on the application's settings, typically under "LogPath:PathFile".
+            </summary>
+        </member>
+        <member name="F:NubaHotel.Booking.Api.Logging.LoggingService.FileName">
+            <summary>
+            Represents the default name of the log file used by the logging service.
+            This value is combined with the current date to generate the full log file name
+            when writing logs, ensuring unique log files per day.
+            </summary>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Logging.LoggingService.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            The LoggingService class is responsible for handling logging functionality
+            within the application. It facilitates writing logs to a file specified
+            in the application's configuration.
+            </summary>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Logging.LoggingService.WriteLog(System.Exception)">
+            <summary>
+            Writes the details of a specified exception to the log file.
+            </summary>
+            <param name="exception">The exception to be logged, containing information about the error.</param>
+        </member>
+        <member name="T:NubaHotel.Booking.Api.Middleware.GlobalExceptionMiddleware">
+            <summary>
+            Middleware for handling global exception handling in the application.
+            Captures unhandled exceptions during HTTP request processing and provides
+            a centralized mechanism for logging and handling errors.
+            </summary>
+        </member>
+        <member name="F:NubaHotel.Booking.Api.Middleware.GlobalExceptionMiddleware._next">
+            <summary>
+            Represents the next middleware in the HTTP request processing pipeline.
+            Used to invoke the next middleware component after the current middleware
+            has finished processing or when delegating control of the request further
+            down the pipeline.
+            </summary>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Middleware.GlobalExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Middleware for intercepting and handling unhandled exceptions in the HTTP request pipeline.
+            Ensures centralized error handling, logging, and response generation for unexpected errors.
+            </summary>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Middleware.GlobalExceptionMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext,NubaHotel.Booking.Api.Logging.LoggingService)">
+            <summary>
+            Processes an incoming HTTP request, handles any unhandled exceptions that occur during the pipeline execution,
+            and delegates the request to the next middleware in the pipeline.
+            </summary>
+            <param name="context">The <see cref="T:Microsoft.AspNetCore.Http.HttpContext"/> of the current HTTP request.</param>
+            <param name="loggingService">The <see cref="T:NubaHotel.Booking.Api.Logging.LoggingService"/> instance used for logging exceptions.</param>
+            <returns>A task that represents the asynchronous operation of processing the HTTP request.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Middleware.GlobalExceptionMiddleware.HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception,NubaHotel.Booking.Api.Logging.LoggingService)">
+            <summary>
+            Handles exceptions occurring during HTTP request processing, logs the exception,
+            sets the appropriate HTTP status code, and generates an error response.
+            This method centralizes exception handling and response formatting.
+            </summary>
+            <param name="context">The current HTTP context of the request being processed.</param>
+            <param name="exception">The exception that was thrown during request processing.</param>
+            <param name="loggingService">A service responsible for logging exceptions and errors.</param>
+            <returns>A task that represents the asynchronous operation of handling the exception
+            and writing the error response to the HTTP response.</returns>
+        </member>
+        <member name="M:NubaHotel.Booking.Api.Middleware.GlobalExceptionMiddleware.GetStatusCodeFromException(System.Exception)">
+            <summary>
+            Determines the appropriate HTTP status code based on the provided exception type.
+            Maps specific exception types to status codes, enabling consistent error response handling.
+            </summary>
+            <param name="exception">
+            The exception to evaluate for determining the corresponding HTTP status code.
+            </param>
+            <returns>
+            The HTTP status code that corresponds to the specified exception type. Returns 500 (Internal Server Error)
+            for unrecognized exceptions.
+            </returns>
+        </member>
+    </members>
+</doc>

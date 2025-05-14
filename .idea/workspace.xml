@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81ccc72c-10b0-45e3-be0a-45e0091cecfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/DTOs/BookingDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NubaHotel.Booking.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/NubaHotel.Booking.Api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/NubaHotel.Booking.Api.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/Debug/net8.0/NubaHotel.Booking.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/Debug/net8.0/NubaHotel.Booking.Api.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/Debug/net8.0/NubaHotel.Booking.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/Debug/net8.0/NubaHotel.Booking.Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/NubaHotel.Booking.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/NubaHotel.Booking.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/NubaHotel.Booking.Application.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/obj/Debug/net8.0/NubaHotel.Booking.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/obj/Debug/net8.0/NubaHotel.Booking.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/obj/Debug/net8.0/NubaHotel.Booking.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/obj/Debug/net8.0/NubaHotel.Booking.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/Exceptions/EntityNotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/Exceptions/EntityNotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/NubaHotel.Booking.Domain.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/Repositories/IBookingRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/Repositories/IBookingRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/Repositories/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/obj/Debug/net8.0/NubaHotel.Booking.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/obj/Debug/net8.0/NubaHotel.Booking.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/obj/Debug/net8.0/NubaHotel.Booking.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/obj/Debug/net8.0/NubaHotel.Booking.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/NubaHotel.Booking.Infra.External.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/Debug/net8.0/NubaHotel.Booking.Infra.External.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/Debug/net8.0/NubaHotel.Booking.Infra.External.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/Debug/net8.0/NubaHotel.Booking.Infra.External.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/Debug/net8.0/NubaHotel.Booking.Infra.External.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/Debug/net8.0/NubaHotel.Booking.Infra.External.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/Debug/net8.0/NubaHotel.Booking.Infra.External.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/NubaHotel.Booking.Infra.External.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/NubaHotel.Booking.Infra.External.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.External/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/Mappers/BookingMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/Mappers/BookingMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/NubaHotel.Booking.Infra.Persistence.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/Repositories/BookingRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/Repositories/BookingRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/Debug/net8.0/NubaHotel.Booking.Infra.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/Debug/net8.0/NubaHotel.Booking.Infra.Persistence.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/Debug/net8.0/NubaHotel.Booking.Infra.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/Debug/net8.0/NubaHotel.Booking.Infra.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/Debug/net8.0/NubaHotel.Booking.Infra.Persistence.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/Debug/net8.0/NubaHotel.Booking.Infra.Persistence.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/Debug/net8.0/NubaHotel.Booking.Infra.Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/Debug/net8.0/NubaHotel.Booking.Infra.Persistence.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/NubaHotel.Booking.Infra.Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/NubaHotel.Booking.Infra.Persistence.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/NubaHotel.Booking.Infra.Persistence/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2wqHqFGpyLqalrav1B8EPR0lNF2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81ccc72c-10b0-45e3-be0a-45e0091cecfd" name="Changes" comment="" />
+      <created>1746762374819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746762374819</updated>
+      <workItem from="1746762376938" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

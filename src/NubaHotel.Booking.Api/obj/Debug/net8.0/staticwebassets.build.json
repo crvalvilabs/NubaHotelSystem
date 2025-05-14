@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "EB1k7uVgSrYLmNZpRaD2B7DZjoO3CA40dhZEGqmisMY=",
+  "Source": "NubaHotel.BookingSystem.Api",
+  "BasePath": "_content/NubaHotel.BookingSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
